@@ -11,4 +11,8 @@ class Usuario extends Controller
     {
         $this->modal('modal_novo_encontro');
     }
+    public function gravar_novo_encontro()
+    {
+        $this->load_model('usuario/gravar_novo_encontro');
+    }
 }
